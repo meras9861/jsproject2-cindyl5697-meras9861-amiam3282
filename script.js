@@ -12,7 +12,7 @@ $.ajax({
     
     for(var i = 0; i < data.length; i++){ // loops happening
       if (data[i].type == usersStore) { // as loops are happening, this allows the data to sort out everything that match the user's input.
-        document.write("The type: " + data[i].type + "<br>" + "<br>" + data[i].store + "<br>" + " website: " + data[i].website +"<br>");
+        document.write("<br>" + "The type: " + data[i].type + "<br>" + "<br>" + data[i].store + "<br>" + " website: " + data[i].website +"<br>");
          } // finally we printed out the user's input by listing all the store that fall into the "type" category along with the website if available . For example, if I put "Bank", I would have all the bank and their website listed. If there's no website, Undefined will appear
     } 
 }
