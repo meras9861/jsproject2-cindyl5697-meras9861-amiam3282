@@ -15,5 +15,6 @@ $.ajax({
         document.write("<br>" + "The type: " + data[i].type + "<br>" + "<br>" + data[i].store + "<br>" + " website: " + data[i].website +"<br>");
          } // finally we printed out the user's input by listing all the store that fall into the "type" category along with the website if available . For example, if I put "Bank", I would have all the bank and their website listed. If there's no website, Undefined will appear
     } 
+    document.write("<br>" +"PLEASE NOTE: if the website is shown as UNDEFINED, there's no website available");
 }
 });
