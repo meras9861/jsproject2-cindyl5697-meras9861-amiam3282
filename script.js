@@ -13,8 +13,8 @@ $.ajax({
     for(var i = 0; i < data.length; i++){ // loops happening
       if (data[i].type == usersStore) { // as loops are happening, this allows the data to sort out everything that match the user's input.
         document.write("<br>" + "The type: " + data[i].type + "<br>" + "<br>" + data[i].store + "<br>" + " website: " + data[i].website +"<br>");
-         } // finally we printed out the user's input by listing all the store that fall into the "type" category along with the website if available. For example, if I put "Bank", I would have all the banks and their websites listed. If there's no website, Undefined will appear. If there is a website, it will appear for the user to copy and paste into a new link.
+         } // finally we printed out the user's input by listing all the store that fall into the "type" category along with the website if available. For example, if I put "Bank", I would have all the banks and their websites listed. If there's no website, Undefined will appear. If there is a website, it will appear for the user to see the  link.
     } 
-    document.write("<br>" +"PLEASE NOTE: if the website is shown as UNDEFINED, there's no website available");
+    document.write("<br>" +"PLEASE NOTE: if the website is shown as UNDEFINED, there's no website available"); // give a reminder when there's no link
 }
 });
