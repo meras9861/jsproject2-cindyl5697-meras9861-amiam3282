@@ -2,7 +2,7 @@ $.ajax({
     url: 'https://data.cityofnewyork.us/resource/jvce-szsb.json',
     dataType: 'json',
     success: function(data) {
-      alert("WELCOME TO FILTON STREET MALL!"); // give the users an introduction alert. Welcome the user.
+      alert("WELCOME TO FULTON STREET MALL!"); // give the users an introduction alert. Welcome the user.
       
       alert("Here are the types of stores we have in Filton Street Mall: [Jewelry and Accessories], [Women's and Men's Apparel and Footwear], [Food], [Electronics], [Women's Apparel], [Women's Footwear], [Bank] ,[Home Goods], [Men's Apparel - Urban], [Women's Apparel - Urban], [Women's Footwear], [Children's Apparel], [Specialty - Embroidery], [Leather Goods], [Specialty - Uniform], [Women's Apparel -Urban], [Women's Footwear], [Pharmacy], [Women's and Men's Apparel -Urban], [Nails], [Women's Apparel - Urban], [Women's and Men's Footwear], [Men's Apparel], [Dental Care], [Variety Store], [Eye Care], [Woman Apparel], [Woman's and Men's Footwear], [Women's and Men's Apparel - Urban], [Children's Footwear], [Apparel and Footwear], [Fitness], [Department Store], [Dental, Medical], [Sporting Goods Women's and Men's Apparel Women's and Men's Footwear], [Baby and Children's Furniture, Apparel and Accessories], [Women's and Men's Footwear Children's Footwear], [Men's Apparel and Footwear - Urban], [Footwear], [Furniture]")
      // alert the user all the types of stores we have in the mall by giving them all the list of types. 
